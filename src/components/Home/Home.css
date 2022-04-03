@@ -1,0 +1,11 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    column-gap: 4;
+}
+.info-container{
+    
+}
+.img-container{
+    
+}
