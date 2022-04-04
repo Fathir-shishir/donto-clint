@@ -1,0 +1,7 @@
+.reviewer-info{
+    display: flex;
+}
+.reviewer-info img{
+    height: 80px;
+    width: 80px;
+}
