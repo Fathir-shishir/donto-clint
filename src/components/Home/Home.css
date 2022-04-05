@@ -1,11 +1,38 @@
 .home-container{
     display: grid;
     grid-template-columns: 3fr 2fr;
-    column-gap: 4;
-}
-.info-container{
+    gap: 20px 20px;
+    margin: 25px;
     
 }
 .img-container{
-    
+    /* border: 1px solid black; */
+}
+.info-container{
+    /* border: 1px solid black; */
+}
+.info-container h1{
+    margin: 0px;
+}
+.review-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px; 
+    margin: 25px; 
+}
+.rev-heading{
+    text-align: center;
+    margin:30px 0px ;
+}
+.btn-div{
+    text-align: center;
+    margin: 20px 0px;
+}
+.rev-link{
+    text-decoration: none;
+    background-color: palevioletred;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+  
 }

@@ -9,3 +9,11 @@
     color: white;
     /* padding-bottom: 20px; */
 }
+
+.link:hover{
+    color: aqua;
+}
+
+.nav-container CustomLink{
+    color: bisque;
+}

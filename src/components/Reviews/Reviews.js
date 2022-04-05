@@ -8,13 +8,15 @@ const Reviews = () => {
    console.log(reviews)
     return (
         <div>
-         <h1 className='heading'>REVIEWS</h1>
+         <div className='reviews-container'>
             {
                 reviews.map(review=><Review 
                 key={review.id}
                 review={review}
                 ></Review>)
             }
+         </div>
+            
         </div>
     );
 };
